@@ -1,3 +1,6 @@
+import mysql.connector
+from mysql.connector import errorcode
+
 config = {
     "user": "movies_user",
     "password": "popcorn",
